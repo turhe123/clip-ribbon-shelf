@@ -1,5 +1,7 @@
 # ClipRibbonShelf
 
+**🌐 Website:** [turhe123.github.io/clip-ribbon-shelf](https://turhe123.github.io/clip-ribbon-shelf/)
+
 A visual strip of clipboard cards that slides up from the screen bottom with pinboards for saved clips.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -27,7 +29,17 @@ ClipRibbonShelf is a free, open-source, 100% native, backend-free alternative to
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-shelf.png" alt="ClipRibbonShelf shelf showing a row of clipboard cards" width="720"></p>
+
+<p align="center"><em>The clipboard shelf slides up from the bottom of the screen with color-coded cards for text, links, images and code.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-quick-look.png" alt="Quick Look popover previewing a code snippet above the shelf" width="560"></p>
+
+<p align="center"><em>Press Space on a selected card to open a Quick Look popover with its full contents.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="ClipRibbonShelf Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you rebind the shortcut, set history length, shelf height and card width, and ignore apps such as password managers.</em></p>
 
 ## Install
 

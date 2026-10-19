@@ -1,0 +1,5 @@
+[
+  {"file":"01-shelf.png","caption":"The clipboard shelf slides up from the bottom of the screen with color-coded cards for text, links, images and code.","alt":"ClipRibbonShelf shelf showing a row of clipboard cards"},
+  {"file":"02-quick-look.png","caption":"Press Space on a selected card to open a Quick Look popover with its full contents.","alt":"Quick Look popover previewing a code snippet above the shelf"},
+  {"file":"03-settings.png","caption":"Settings let you rebind the shortcut, set history length, shelf height and card width, and ignore apps such as password managers.","alt":"ClipRibbonShelf Settings window"}
+]

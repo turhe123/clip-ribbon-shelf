@@ -1,0 +1,60 @@
+{
+  "seo_title": "Clipboard card shelf for macOS",
+  "seo_description": "Free, open-source clipboard manager for macOS. A shelf of clipboard cards slides up with ⇧⌘C, with pinboards, keyboard paste, and no network access.",
+  "hero_title_line1": "Your clipboard,",
+  "hero_title_accent": "one shelf away.",
+  "hero_sub": "A strip of clipboard cards slides up from the bottom of your screen. Press ⇧⌘C, pick a card with the arrow keys, and hit Return to paste it into the app you were using.",
+  "features_title": "Everything you copied, in view.",
+  "features_sub": "A native, keyboard-first clipboard history that stays on your Mac.",
+  "features": [
+    {
+      "icon": "clipboard",
+      "title": "Clipboard history as cards",
+      "desc": "Captures text, links, images and file references. Each card shows a type-aware preview, the source app's icon and a relative timestamp."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Keyboard-first control",
+      "desc": "Use the arrow keys to browse, Return to paste, Space for a Quick Look popover, and just start typing to filter. The global hotkey is rebindable in Settings."
+    },
+    {
+      "icon": "folder",
+      "title": "Pinboards for saved clips",
+      "desc": "Create named pinboards as tabs, drag cards onto them, or press ⌘1 to ⌘9 to pin the selected card. Deleting a pinboard moves its cards back to History."
+    },
+    {
+      "icon": "display",
+      "title": "Opens on your current screen",
+      "desc": "The translucent shelf appears at the bottom of the display your mouse is on. It switches to a solid background when Reduce Transparency is enabled."
+    },
+    {
+      "icon": "lock",
+      "title": "Private and local only",
+      "desc": "Skips items marked concealed or transient and ignores apps like Keychain Access and 1Password by default. You can also pause capture from the menu bar. No network requests are made."
+    },
+    {
+      "icon": "sliders",
+      "title": "Settings that fit your setup",
+      "desc": "Choose a history length of 100, 500 or 1000, set the shelf height and card width, turn off image capture, and enable Launch at login."
+    }
+  ],
+  "permissions_step": "Optionally grant Accessibility access in System Settings → Privacy & Security → Accessibility so ClipRibbonShelf can paste directly with ⌘V; without it, cards are copied and you press ⌘V yourself.",
+  "faq": [
+    {
+      "q": "Is ClipRibbonShelf really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no account, subscription or paid tier. If it is useful to you, there is an optional Support button that links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Accessibility, and only so it can send ⌘V to the app you were using. You can decline it and still use everything else, since cards are copied and you press ⌘V yourself. It does not ask for Screen Recording, Microphone, Camera or network access."
+    },
+    {
+      "q": "Where is my clipboard data stored?",
+      "a": "Only on your Mac, in ~/Library/Application Support/ClipRibbonShelf. History and pinboards are saved as JSON, with image files alongside. Nothing is sent anywhere."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}
